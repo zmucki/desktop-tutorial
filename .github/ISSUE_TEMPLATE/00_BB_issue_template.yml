@@ -29,6 +29,8 @@ body:
     - MWLayer
     - OSLayer
     - HWLayer
+  validations:
+    required: true
 
 - type: input
   id: fc
@@ -36,6 +38,8 @@ body:
     label: Functional Cluster
     description: Please input the corresponding Layer of the affected BB
     placeholder: eg. FC Security
+  validations:
+    required: true
 
 - type: input
   id: bb-name
@@ -43,9 +47,13 @@ body:
     label: BB name
     description: Please input the name of the affected BB
     placeholder: eg. OTA Master
+  validations:
+    required: true
 
 - type: textarea
   id: problem-description
   attributes:
     label: Problem Description
     description: Please describe the problem you encountered in detail
+  validations:
+    required: true

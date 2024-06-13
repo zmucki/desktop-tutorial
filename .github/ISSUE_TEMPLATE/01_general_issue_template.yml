@@ -23,3 +23,5 @@ body:
   attributes:
     label: Problem Description
     description: Please describe the problem you encountered in detail
+  validations:
+    required: true
