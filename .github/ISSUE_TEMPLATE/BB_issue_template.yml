@@ -1,7 +1,6 @@
 name: BB bug
 description: File an issue for a BB.
 title: "[BB Bug]:"
-
 labels: [BB, bug]
 
 body:
