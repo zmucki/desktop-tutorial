@@ -1,7 +1,7 @@
 name: BB Issue
 description: File an issue for a BB.
-title: "[Bug]: "
-labels: ["bug", "triage"]
+title: "[Issue]: "
+labels: ["BB", "invalid", "test"]
 projects: ["octo-org/1", "octo-org/44"]
 body:
 - type: markdown
