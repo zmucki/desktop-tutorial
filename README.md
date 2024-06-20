@@ -26,6 +26,8 @@ The README gets automatically updated when a pull request is merged to the main 
 > [!Warning]
 >If your github account was created before July 18, 2017, automatic creation of the README will not work. Please update the README maually by running the readme_generator.py file and creating a pull request to the main branch"
 
+test
+
 ### Folder Structure
 
 When implementing a new BB one has to comply to the following folder structure:
