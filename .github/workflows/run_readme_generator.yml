@@ -1,11 +1,13 @@
 name: Run README Generator on push
 
 on:
-  push:
+   pull_request:
+    types: [closed]
     branches: [ main ]
 
 jobs:
   build:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
@@ -35,5 +37,5 @@ jobs:
     - name: Commit and push
       run: |
         git add .
-        git commit -m "Update README.md"
+        git commit -m "Automatic update of README.md"
         git push
