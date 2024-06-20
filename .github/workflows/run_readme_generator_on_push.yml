@@ -35,5 +35,5 @@ jobs:
     - name: Commit and push
       run: |
         git add .
-        git commit -m "Automatic update of README.md on push
+        git commit -m "Automatic update of README.md on push"
         git push
