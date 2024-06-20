@@ -22,7 +22,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run Python script
-      run: python readme_generator.py
+      run: python scripts/readme_generator.py
 
     - name: Possible Errors
       run: echo "If your github account was created before July 18, 2017, automatic creation of the README will not work. Please update the README maually by running the readme_generator.py file"
