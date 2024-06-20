@@ -57,5 +57,5 @@ First tag of BB defines its location in git repo
 |BB-WE|Whatever Tag / Whitecard|
 
 ## Navigation
-
+***
 generated using [README Generator](/scripts/readme_generator.py)
