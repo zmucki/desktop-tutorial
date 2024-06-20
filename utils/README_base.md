@@ -16,6 +16,8 @@ the [README Generator](/scripts/readme_generator.py). To adjust contents of the 
 the Navigation, change them in the [README_base file](/utils/README_base.md). The Navigation will 
 be inserted at the "## Navigation" flag in the [README_base file](/utils/README_base.md).
 
+test
+
 > [!CAUTION]
 > If you don't follow the structure correctly the automatic README generation will not work!
 
