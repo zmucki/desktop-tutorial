@@ -18,6 +18,8 @@ be inserted at the "## Navigation" flag in the [README_base file](/utils/README_
 
 > [!CAUTION]
 > If you don't follow the structure correctly the automatic README generation will not work!
+
+> [!Warning]
 >If your github account was created before July 18, 2017, automatic creation of the README will not work. Please update the README maually by running the readme_generator.py file!"
 
 ### Folder Structure
