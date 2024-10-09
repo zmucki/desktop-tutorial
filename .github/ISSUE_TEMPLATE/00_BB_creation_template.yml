@@ -30,6 +30,24 @@ body:
   validations:
     required: true
 
+- type: input
+  id: BB_tags_main
+  attributes:
+    label: Main BB Tag
+    description: Out of the BB Tags you selected, wich is the most important one?
+    placeholder: eg. BB-SC
+  validations:
+    required: true
+
+- type: input
+  id: FC
+  attributes:
+    label: Functional Clusters
+    description: In which Functional Cluster the BB be located; if none of the existing fit new required
+    placeholder: eg. Communication
+  validations:
+    required: true
+
 - type: dropdown
   id: layer
   attributes:
@@ -41,5 +59,14 @@ body:
     - MWLayer
     - OSLayer
     - HWLayer
+  validations:
+    required: true
+
+- type: input
+  id: known_impl
+  attributes:
+    label: Known Implementation(s)
+    description: Link or description of known Implementations
+    placeholder: 
   validations:
     required: true
