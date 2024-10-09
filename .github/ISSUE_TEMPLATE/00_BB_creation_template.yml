@@ -18,6 +18,15 @@ body:
   validations:
     required: false
 
+- type: input
+  id: name
+  attributes:
+    label: Name of the BB
+    description: Insert name of the BB
+    placeholder: eg. Diagnostic Policy Manager
+  validations:
+    required: true
+
 
 - type: checkboxes
   id: BB_tags
@@ -66,7 +75,7 @@ body:
   id: known_impl
   attributes:
     label: Known Implementation(s)
-    description: Link or description of known Implementations
+    description: Link or description of known implementations
     placeholder: 
   validations:
     required: true
