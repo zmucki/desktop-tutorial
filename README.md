@@ -65,86 +65,85 @@ First tag of BB defines its location in git repo
 
 ## Navigation
 - library
+    - [test](/library/test/test.md)
     - unsorted_BB
         - Daniel
+            - [BB_Template_filled_FleetData_WP3](/library/unsorted_BB/Daniel/BB_Template_filled_FleetData_WP3.md)
             - [BB_Template_filled_RemoteVehicleInteraction_WP3](/library/unsorted_BB/Daniel/BB_Template_filled_RemoteVehicleInteraction_WP3.md)
             - [BB_Template_filled_ServiceMesh_WP3](/library/unsorted_BB/Daniel/BB_Template_filled_ServiceMesh_WP3.md)
-            - [BB_Template_filled_FleetData_WP3](/library/unsorted_BB/Daniel/BB_Template_filled_FleetData_WP3.md)
-    - Cloud
-        - [BB-CSC](/library/Cloud/BB-CSC/BB-CSC.md)
-        - [BB-CEST](/library/Cloud/BB-CEST/BB-CEST.md)
-            - _Not_Clustered
-                - [BB_Car_Simulator](/library/Cloud/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
-        - [BB-CSC-TC](/library/Cloud/BB-CSC-TC/BB-CSC-TC.md)
-        - BB-CMU
     - In-Vehicle
+        - [BB-EST](/library/In-Vehicle/BB-EST/BB-EST.md)
+        - [BB-SC-TC](/library/In-Vehicle/BB-SC-TC/BB-SC-TC.md)
+            - Testing
+                - [BB_Shadowing](/library/In-Vehicle/BB-SC-TC/Testing/BB_Shadowing.md)
+                - [BB_Digital_Twin](/library/In-Vehicle/BB-SC-TC/Testing/BB_Digital_Twin.md)
+        - BB-MU
         - [BB-SC](/library/In-Vehicle/BB-SC/BB-SC.md)
+            - [MWLayer](/library/In-Vehicle/BB-SC/MWLayer/MWLayer.md)
+                - Time
+                    - [BB_Time_Service](/library/In-Vehicle/BB-SC/MWLayer/Time/BB_Time_Service.md)
+                - Configuration
+                    - [BB_OTA_Master](/library/In-Vehicle/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
+                    - [BB_Local_Update_Manager](/library/In-Vehicle/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
+                - Storage
+                    - [BB_Vehicle_Data_Collector](/library/In-Vehicle/BB-SC/MWLayer/Storage/BB_Vehicle_Data_Collector.md)
+                    - [BB_Vehicle_Logging_and_Recording](/library/In-Vehicle/BB-SC/MWLayer/Storage/BB_Vehicle_Logging_and_Recording.md)
+                    - [BB_Vehicle_Data_Persistency](/library/In-Vehicle/BB-SC/MWLayer/Storage/BB_Vehicle_Data_Persistency.md)
+                - Security
+                    - [BB_Security_Event_Manager](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Security_Event_Manager.md)
+                    - [BB_Secure_Onboard_Communication](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Secure_Onboard_Communication.md)
+                    - [BB_Crypto_Service_Manager](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Crypto_Service_Manager.md)
+                    - [BB_Security_Transport_Layer](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Security_Transport_Layer.md)
+                    - [BB_Internet_Protocol_Security](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Internet_Protocol_Security.md)
+                    - [BB_Intrusion_Detection](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Intrusion_Detection.md)
+                - Communication
+                    - [BB_Communication_Service_S2S](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Communication_Service_S2S.md)
+                    - [BB_Gateway_Mirroring](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
+                    - [BB_Network_Management](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Network_Management.md)
+                    - [BB_Standard_Android_VHAL](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Standard_Android_VHAL.md)
+                    - [BB_SecOS](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_SecOS.md)
+                    - [BB_Smart_Charging_Communication](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
+                - Runtime
+                    - [BB_State_Management](/library/In-Vehicle/BB-SC/MWLayer/Runtime/BB_State_Management.md)
+                    - [BB_Diagnostic_Services_Applications](/library/In-Vehicle/BB-SC/MWLayer/Runtime/BB_Diagnostic_Services_Applications.md)
+                - Power-Management
+                    - [BB_Power_Management](/library/In-Vehicle/BB-SC/MWLayer/Power-Management/BB_Power_Management.md)
+                - Diagnostics
+                    - [BB_Diagnostic_Policy_Manager](/library/In-Vehicle/BB-SC/MWLayer/Diagnostics/BB_Diagnostic_Policy_Manager.md)
+                - Tools-and-Methods
+                    - [BB_Key_Management_System](/library/In-Vehicle/BB-SC/MWLayer/Tools-and-Methods/BB_Key_Management_System.md)
+                - Platform-Health-Management
+                    - [BB_Distributed_Health_Management](/library/In-Vehicle/BB-SC/MWLayer/Platform-Health-Management/BB_Distributed_Health_Management.md)
+                    - [BB_Watchdog](/library/In-Vehicle/BB-SC/MWLayer/Platform-Health-Management/BB_Watchdog.md)
+            - [AppLayer](/library/In-Vehicle/BB-SC/AppLayer/AppLayer.md)
+                - Communication
+                    - [BB_AOSP_Push_Notification_Service](/library/In-Vehicle/BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service.md)
             - HWLayer
             - [OSLayer](/library/In-Vehicle/BB-SC/OSLayer/OSLayer.md)
                 - Time
                     - [BB_Automotive_Edge_Runtime](/library/In-Vehicle/BB-SC/OSLayer/Time/BB_Automotive_Edge_Runtime.md)
-            - [MWLayer](/library/In-Vehicle/BB-SC/MWLayer/MWLayer.md)
-                - Time
-                    - [BB_Time_Service](/library/In-Vehicle/BB-SC/MWLayer/Time/BB_Time_Service.md)
-                - Security
-                    - [BB_Crypto_Service_Manager](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Crypto_Service_Manager.md)
-                    - [BB_Secure_Onboard_Communication](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Secure_Onboard_Communication.md)
-                    - [BB_Security_Event_Manager](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Security_Event_Manager.md)
-                    - [BB_Internet_Protocol_Security](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Internet_Protocol_Security.md)
-                    - [BB_Intrusion_Detection](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Intrusion_Detection.md)
-                    - [BB_Security_Transport_Layer](/library/In-Vehicle/BB-SC/MWLayer/Security/BB_Security_Transport_Layer.md)
-                - Power-Management
-                    - [BB_Power_Management](/library/In-Vehicle/BB-SC/MWLayer/Power-Management/BB_Power_Management.md)
-                - Platform-Health-Management
-                    - [BB_Watchdog](/library/In-Vehicle/BB-SC/MWLayer/Platform-Health-Management/BB_Watchdog.md)
-                    - [BB_Distributed_Health_Management](/library/In-Vehicle/BB-SC/MWLayer/Platform-Health-Management/BB_Distributed_Health_Management.md)
-                - Communication
-                    - [BB_Smart_Charging_Communication](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
-                    - [BB_Gateway_Mirroring](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
-                    - [BB_Communication_Service_S2S](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Communication_Service_S2S.md)
-                    - [BB_SecOS](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_SecOS.md)
-                    - [BB_Standard_Android_VHAL](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Standard_Android_VHAL.md)
-                    - [BB_Network_Management](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Network_Management.md)
-                - Tools-and-Methods
-                    - [BB_Key_Management_System](/library/In-Vehicle/BB-SC/MWLayer/Tools-and-Methods/BB_Key_Management_System.md)
-                - Storage
-                    - [BB_Vehicle_Data_Persistency](/library/In-Vehicle/BB-SC/MWLayer/Storage/BB_Vehicle_Data_Persistency.md)
-                    - [BB_Vehicle_Data_Collector](/library/In-Vehicle/BB-SC/MWLayer/Storage/BB_Vehicle_Data_Collector.md)
-                    - [BB_Vehicle_Logging_and_Recording](/library/In-Vehicle/BB-SC/MWLayer/Storage/BB_Vehicle_Logging_and_Recording.md)
-                - Configuration
-                    - [BB_Local_Update_Manager](/library/In-Vehicle/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
-                    - [BB_OTA_Master](/library/In-Vehicle/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
-                - Diagnostics
-                    - [BB_Diagnostic_Policy_Manager](/library/In-Vehicle/BB-SC/MWLayer/Diagnostics/BB_Diagnostic_Policy_Manager.md)
-                - Runtime
-                    - [BB_Diagnostic_Services_Applications](/library/In-Vehicle/BB-SC/MWLayer/Runtime/BB_Diagnostic_Services_Applications.md)
-                    - [BB_State_Management](/library/In-Vehicle/BB-SC/MWLayer/Runtime/BB_State_Management.md)
-            - [AppLayer](/library/In-Vehicle/BB-SC/AppLayer/AppLayer.md)
-                - Communication
-                    - [BB_AOSP_Push_Notification_Service](/library/In-Vehicle/BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service.md)
-        - [BB-EST](/library/In-Vehicle/BB-EST/BB-EST.md)
-        - BB-MU
-        - [BB-SC-TC](/library/In-Vehicle/BB-SC-TC/BB-SC-TC.md)
-            - Testing
-                - [BB_Digital_Twin](/library/In-Vehicle/BB-SC-TC/Testing/BB_Digital_Twin.md)
-                - [BB_Shadowing](/library/In-Vehicle/BB-SC-TC/Testing/BB_Shadowing.md)
-    - [test](/library/test/test.md)
     - [S-BB](/library/S-BB/S-BB.md)
-        - HWLayer
-        - OSLayer
         - MWLayer
             - [BB_Standardized_way_for_Reasoning_on_Data_Streams](/library/S-BB/MWLayer/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
-            - [BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers](/library/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
             - [BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators](/library/S-BB/MWLayer/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
-        - [MWLayer](/library/S-BB/MWLayer/MWLayer.md)
-            - [BB_sSOA](/library/S-BB/MWLayer/BB_sSOA.md)
             - [BB_SOA](/library/S-BB/MWLayer/BB_SOA.md)
-        - AppLayer
-            - [BB_Standardized_Description_of_Data_from_Related_Domains](/library/S-BB/AppLayer/BB_Standardized_Description_of_Data_from_Related_Domains.md)
-            - [BB_Standardization_of_Vehicle_API](/library/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
-            - [BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains](/library/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains.md)
+        - [MWLayer](/library/S-BB/MWLayer/MWLayer.md)
+            - [BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers](/library/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
+            - [BB_sSOA](/library/S-BB/MWLayer/BB_sSOA.md)
         - [AppLayer](/library/S-BB/AppLayer/AppLayer.md)
-            - [BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains](/library/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains.md)
             - [BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure](/library/S-BB/AppLayer/BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure.md)
+            - [BB_Standardization_of_Vehicle_API](/library/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
+            - [BB_Standardized_Description_of_Data_from_Related_Domains](/library/S-BB/AppLayer/BB_Standardized_Description_of_Data_from_Related_Domains.md)
+            - [BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains](/library/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains.md)
+            - [BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains](/library/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains.md)
+        - HWLayer
+        - OSLayer
+    - Cloud
+        - [BB-CSC-TC](/library/Cloud/BB-CSC-TC/BB-CSC-TC.md)
+        - [BB-CSC](/library/Cloud/BB-CSC/BB-CSC.md)
+        - BB-CMU
+        - [BB-CEST](/library/Cloud/BB-CEST/BB-CEST.md)
+            - _Not_Clustered
+                - [BB_Car_Simulator](/library/Cloud/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
 ***
 generated using [README Generator](/scripts/readme_generator.py)
