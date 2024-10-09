@@ -1,0 +1,45 @@
+name: Popose a new BB
+description: File a proposal for a new BB.
+title: "[New BB]:"
+labels: [BB]
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this form!
+
+- type: input
+  id: contact
+  attributes:
+    label: Contact Details
+    description: How can we get in touch with you if we need more info?
+    placeholder: eg. email@example.com
+  validations:
+    required: false
+
+
+- type: checkboxes
+    id: BB_tags
+    attributes:
+      label: BB Tags(s)
+      description: Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice)
+      multiple: true
+      options:
+        - label: BB-CSC
+        - label: BB-SC
+          required: true
+
+- type: dropdown
+  id: layer
+  attributes:
+    label: Layer
+    description: Please select the corresponding Layer of the affected BB
+    multiple: true
+    options:
+    - AppLayer
+    - MWLayer
+    - OSLayer
+    - HWLayer
+  validations:
+    required: true
