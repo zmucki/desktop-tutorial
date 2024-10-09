@@ -28,7 +28,8 @@ body:
       options:
         - label: BB-CSC
         - label: BB-SC
-          required: true
+  validations:
+    required: true
 
 - type: dropdown
   id: layer
