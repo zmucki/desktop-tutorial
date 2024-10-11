@@ -177,7 +177,7 @@ body:
     description: If “Yes exists” – where – e.g. COVESA VSS; \n If “No” – nothing more to do; \n If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS 
     placeholder: 
     validations:
-    required: false
+      required: false
 
 - type: input
   id: author_comp
@@ -197,3 +197,5 @@ body:
       - label: Low
       - label: Medium
       - label: High
+  validations:
+    required: true
