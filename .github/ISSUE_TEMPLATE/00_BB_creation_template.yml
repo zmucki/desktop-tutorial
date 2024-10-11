@@ -170,7 +170,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   id: api_relevant
   attributes:
     label: Vehicle API Relevant
