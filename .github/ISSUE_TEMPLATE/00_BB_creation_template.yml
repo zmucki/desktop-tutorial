@@ -79,3 +79,39 @@ body:
     - HWLayer
   validations:
     required: true
+
+- type: input
+  id: known_impl
+  attributes:
+    label: Known Implementation(s)
+    description: Link or description of known implementations
+    placeholder: 
+  validations:
+    required: true
+
+- type: input
+  id: id
+  attributes:
+    label: ID (unique name)
+    description: 
+    placeholder: 
+  validations:
+    required: false
+
+- type: input
+  id: description
+  attributes:
+    label: Description
+    description: General Description of the BB
+    placeholder: 
+  validations:
+    required: true
+
+- type: input
+  id: rationale
+  attributes:
+    label: Rationale
+    description: Explanation why we need the BB; what problem want to be solved
+    placeholder: 
+  validations:
+    required: false
