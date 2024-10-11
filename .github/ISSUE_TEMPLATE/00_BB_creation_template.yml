@@ -115,3 +115,30 @@ body:
     placeholder: 
   validations:
     required: false
+
+- type: input
+  id: gov_app
+  attributes:
+    label: Governance Applicable S-BB(s)
+    description: Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system; Reference to defined S-BB(s) 
+    placeholder: 
+  validations:
+    required: false
+
+- type: input
+  id: compose_bb
+  attributes:
+    label: Compose BB(s)
+    description: Link to required BB(s); BB is a composition of other BBs
+    placeholder: e.g. BB-SC StateManagement
+  validations:
+    required: false
+
+- type: input
+  id: design_impl
+  attributes:
+    label: What is needed to Design and Implement?
+    description:
+    placeholder: e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language
+  validations:
+    required: false
