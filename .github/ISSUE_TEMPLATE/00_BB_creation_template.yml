@@ -174,9 +174,7 @@ body:
   id: api_relevant
   attributes:
     label: Vehicle API Relevant
-    description: If “Yes exists” – where – e.g. COVESA VSS 
-If “No” – nothing more to do 
-If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS 
+    description: If “Yes exists” – where – e.g. COVESA VSS; \n If “No” – nothing more to do; \n If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS 
     placeholder: 
     validations:
     required: false
@@ -206,8 +204,7 @@ If “Yes, proposal for additional Signals/Information – what should be made a
   id: rel_projects
   attributes:
     label: Related Project(s)
-    description: If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework
+    description: If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value, If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework
     placeholder: 
   validations:
     required: false
