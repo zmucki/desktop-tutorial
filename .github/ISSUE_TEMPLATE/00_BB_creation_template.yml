@@ -80,7 +80,7 @@ body:
   validations:
     required: true
 
-- type: input
+- type: textarea
   id: known_impl
   attributes:
     label: Known Implementation(s)
@@ -98,7 +98,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   id: description
   attributes:
     label: Description
