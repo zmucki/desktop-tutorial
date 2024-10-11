@@ -199,3 +199,39 @@ body:
       - label: High
   validations:
     required: true
+
+- type: input
+  id: rel_projects
+  attributes:
+    label: Related Project(s)
+    description: If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value, If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework
+    placeholder: 
+  validations:
+    required: false
+
+- type: input
+  id: available_sc
+  attributes:
+    label: Availability of Source Code
+    description: Yes / License (e.g. Yes/MIT); No – Commercial Closed Source
+    placeholder: 
+  validations:
+    required: false
+
+- type: input
+  id: available_api
+  attributes:
+    label: Availability of API
+    description: Yes / License (e.g. Yes/Apache 2.0); No - Commercial
+    placeholder: 
+  validations:
+    required: false
+
+- type: input
+  id: pot_obstacles
+  attributes:
+    label: Potential obstacles
+    description: 
+    placeholder: 
+  validations:
+    required: false
