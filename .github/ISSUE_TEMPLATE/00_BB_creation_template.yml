@@ -107,7 +107,7 @@ body:
   validations:
     required: true
 
-- type: input
+- type: textarea
   id: rationale
   attributes:
     label: Rationale
@@ -116,7 +116,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   id: gov_app
   attributes:
     label: Governance Applicable S-BB(s)
@@ -125,7 +125,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   id: compose_bb
   attributes:
     label: Compose BB(s)
@@ -134,7 +134,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   id: design_impl
   attributes:
     label: What is needed to Design and Implement?
@@ -143,7 +143,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   id: build_run
   attributes:
     label: What is needed to build and run?
@@ -152,7 +152,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   id: non_funct_req
   attributes:
     label: Non-Functional Requirements
@@ -161,7 +161,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   id: dep_to_clusters
   attributes:
     label: Dependencies to other Clusters
@@ -200,7 +200,7 @@ body:
   validations:
     required: true
 
-- type: input
+- type: textarea
   id: rel_projects
   attributes:
     label: Related Project(s)
@@ -227,7 +227,7 @@ body:
   validations:
     required: false
 
-- type: input
+- type: textarea
   id: pot_obstacles
   attributes:
     label: Potential obstacles
