@@ -213,8 +213,7 @@ body:
   id: available_sc
   attributes:
     label: Availability of Source Code
-    description: Yes / License (e.g. Yes/MIT) 
-No – Commercial Closed Source
+    description: Yes / License (e.g. Yes/MIT); No – Commercial Closed Source
     placeholder: 
   validations:
     required: false
@@ -223,8 +222,7 @@ No – Commercial Closed Source
   id: available_api
   attributes:
     label: Availability of API
-    description: Yes / License (e.g. Yes/Apache 2.0)
-No - Commercial
+    description: Yes / License (e.g. Yes/Apache 2.0); No - Commercial
     placeholder: 
   validations:
     required: false
